@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #557A46, #5B9A8B);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.outer-box{
+    width: 460px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 80px auto;
+}
+.outer-box h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.output{
+    border: 1px solid #aba9a9;
+    border-radius: 6px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+.output:focus{
+    outline: solid 2px #aba9a9;
+}
+.btn{
+    width: 81px;
+    background: #eee;
+    margin: 10px 5px;
+}
+.btn:hover{
+    background: #aba9a9;
+    transition: .5s all ease-in-out;
+}

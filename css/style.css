@@ -20,6 +20,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+.outer-box h3 i{
+    color: #5b9989;
+}
 .output{
     border: 1px solid #aba9a9;
     border-radius: 6px;
@@ -31,7 +34,7 @@ body{
     outline: solid 2px #aba9a9;
 }
 .btn{
-    width: 81px;
+    width: 82px;
     background: #eee;
     margin: 10px 5px;
 }
